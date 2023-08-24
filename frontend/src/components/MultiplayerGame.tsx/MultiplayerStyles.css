@@ -1,0 +1,64 @@
+.canvasContainer {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  position: inherit;
+}
+
+.canvasOuter {
+  position: inherit;
+}
+
+.userCanvas {
+  width: 270px;
+  height: 270px;
+  margin: 20px;
+  margin-top: 50px;
+  border: 1px solid #ccc; 
+  z-index: 10;
+}
+
+
+.currentUserCanvas {
+  border: 2px solid red; 
+}
+
+
+.pencil, .eraser {
+  position: absolute;
+  top: 100px;  
+  border-radius: 50%;
+  left: 20px;  
+  width: 35px;
+  height: 35px;
+}
+
+.eraser {
+  top: 100px; 
+  border-radius: 50%;
+  left: 70px;
+  width: 35px;
+  height: 35px;
+}
+
+
+.pencil:hover {
+  background-color: black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.eraser:hover {
+  background-color: black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+.canvas-pen {
+  cursor: crosshair;
+}
+
+.canvas-eraser {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16'><rect x='0' y='0' width='16' height='16' fill='white' stroke='black' stroke-width='1' /></svg>") 8 8, auto;
+}
