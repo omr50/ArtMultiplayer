@@ -5,9 +5,16 @@ services:
     build:
       context: ./backend
     ports:
+      - "4000:4000"
+    depends_on:
+      - flask_ml_server
+
+
+  flask_ml_server:
+    build:
+      context: ./flask_ml_server
+    ports:
       - "5000:5000"
-    # env_file:
-      # - .env
 
 #   postgres:
 #     image: postgres:13-alpine

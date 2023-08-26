@@ -3,6 +3,7 @@
   margin-left: auto;
   margin-right: auto;
   position: inherit;
+  color: var(--text-color)
 }
 
 .canvasOuter {
@@ -10,8 +11,8 @@
 }
 
 .userCanvas {
-  width: 270px;
-  height: 270px;
+  width: 370px;
+  height: 370px;
   margin: 20px;
   margin-top: 50px;
   border: 1px solid #ccc; 
@@ -20,7 +21,8 @@
 
 
 .currentUserCanvas {
-  border: 2px solid red; 
+  border: 5px solid var(--button-hover); 
+
 }
 
 
@@ -43,13 +45,13 @@
 
 
 .pencil:hover {
-  background-color: black;
+  background-color: var(--background-color);
   border-radius: 50%;
   cursor: pointer;
 }
 
 .eraser:hover {
-  background-color: black;
+  background-color: var(--background-color);
   border-radius: 50%;
   cursor: pointer;
 }
@@ -61,4 +63,23 @@
 
 .canvas-eraser {
   cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16'><rect x='0' y='0' width='16' height='16' fill='white' stroke='black' stroke-width='1' /></svg>") 8 8, auto;
+}
+
+/* animation for blinking as the user waits */
+@keyframes blink {
+  0%, 100% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0.3;
+  }
+}
+
+
+.wait-effect {
+  animation: blink 1s infinite;
+}
+
+.toggled {
+  background-color: var(--text-color);
 }

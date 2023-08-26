@@ -21,3 +21,5 @@ frontend/yarn/-error.log*
 
 
 backend/node_modules
+
+flask_ml_erver/venv

@@ -17,7 +17,7 @@ COPY . .
 RUN npx tsc
 
 # Expose the port the app runs in
-EXPOSE 5000
+EXPOSE 4000
 
 # Command to run the app using compiled JavaScript code
 CMD [ "node", "dist/index.js" ]
