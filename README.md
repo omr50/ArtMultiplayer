@@ -16,9 +16,14 @@ We are hoping to make it more scalable, allow users to sign up, save their progr
 
 ## How to run the project
 
-### Frontend
+## Frontend
     cd frontend
 #### install dependencies
     npm install
 #### run
     npm start
+
+## backend & flask server
+    cd backend
+#### Run with docker
+    docker-compose up --build
