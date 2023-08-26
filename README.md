@@ -1,5 +1,5 @@
 # Quick Art
-## A competitive drawing game where you race against others in real time to draw according to a prompt and the drawing that is guessed first by a ml algorithm wins! 
+##### A competitive drawing game where you race against others in real time to draw according to a prompt and the drawing that is guessed first by a ml algorithm wins! 
 
 !["Project Diagram"](https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/569/601/datas/gallery.jpg)
 ## Mission
