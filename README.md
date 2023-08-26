@@ -1,4 +1,6 @@
 # Quick Art
+
+!["Project Diagram"](https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/569/601/datas/gallery.jpg)
 ## Mission
 Our mission was to create a art themed game that people can enjoy. We wanted to also make it competitive so people can play with their friends. 
 ## Summary
