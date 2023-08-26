@@ -27,6 +27,6 @@ We are hoping to make it more scalable, allow users to sign up, save their progr
     npm start
 
 ## backend & flask server
-    cd backend
+
 #### Run with docker
     docker-compose up --build
