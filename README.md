@@ -13,3 +13,12 @@ We are proud that the project came together. The queuing system works, the users
 We learned a lot about how websockets work and how to create a multiplayer game where players can communicate quickly through the web, bypassing the limits of HTTP. Also we learned that using AI models is not an easy thing, but it is very rewarding. To use it, there were many dependencies we had to install, and we had to clean and format the data before it was acceptable to the model. The images had to be in a specific format 28 x 28 and only black and white pixels. This helped us learn about how data is processed and how it has to be consistent for the model to give accurate results.
 ## What's next?
 We are hoping to make it more scalable, allow users to sign up, save their progress, and have a real time leader board. We want to time the games, so users can have a log of their best games, and their quickest drawings. It would be more fun and rewarding for users.
+
+## How to run the project
+
+### Frontend
+    cd frontend
+#### install dependencies
+    npm install
+#### run
+    npm start
